@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="elemendidXaml.iphone12">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="iphone12.jpg" />
+            <Label Text="Смартфоны были показаны на второй осенней презентации Apple, которая прошла 13 октября в режиме онлайн-трансляции. Предварительные заказы на iPhone 12 в России начнут принимать с 21 октября, а на iPhone 12 mini — с 6 ноября. Живые устройства поступят в продажу одновременно с остальным миром — 23 октября и 13 ноября соответственно. Эти даты касаются также 12 Pro и 12 Pro Max."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

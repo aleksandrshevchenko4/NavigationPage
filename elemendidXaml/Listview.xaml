@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="elemendidXaml.Listview">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <x:Array x:Key="phones" Type="{x:Type x:String}">
+                <x:String>iPhone 4 Cтарая модель 2016 года</x:String>
+                <x:String>iPhone 5 Cтарая модель</x:String>
+                <x:String>iPhone 12 Новая модель 2020 года</x:String>
+                <x:String>iPhone 10 Новая модель 2020 года</x:String>
+                <x:String>iPhone 6s Старая модель 2018 года</x:String>
+                <x:String>iPhone 7 Старая модель 2018 года</x:String>
+                <x:String>iPhone 8plus Старая модель 2017 года</x:String>
+            </x:Array>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout>
+        <Label Text="Список айфонов нажми на них!" HorizontalOptions="Center" FontSize="Medium" BackgroundColor="LawnGreen" />
+        <ListView x:Name="phonesList" ItemsSource="{StaticResource Key=phones}" ItemSelected="phonesList_ItemSelected"/>
+    </StackLayout>
+</ContentPage>

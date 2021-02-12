@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="elemendidXaml.MainPage"
+             Title="Xamarin Elemendid" BackgroundColor="PapayaWhip" Padding="50,10,50,10">
+
+    <ContentPage.Content>
+        <StackLayout Padding="50,10,50,10" BackgroundColor="Lavender">
+            <Button Text="ListView" Clicked="Button_Clicked_6" TextColor="White" BackgroundColor="DarkSlateGray" ></Button>
+            <Button Text="Timer" Clicked="Button_Clicked" TextColor="White" BackgroundColor="DarkSlateGray"></Button>
+            <Button Text="webView" Clicked="Button_Clicked_1" TextColor="White" BackgroundColor="DarkSlateGray"></Button>
+            <Button Text="TableView" Clicked="Button_Clicked_2" TextColor="White" BackgroundColor="DarkSlateGray"></Button>
+            <Button Text="DatePicker" Clicked="Button_Clicked_3" TextColor="White" BackgroundColor="DarkSlateGray"></Button>
+            <Button Text="Picker" Clicked="Button_Clicked_4" TextColor="White" BackgroundColor="DarkSlateGray"></Button>
+            <Button Text="TimerPicker" Clicked="Button_Clicked_5" TextColor="White" BackgroundColor="DarkSlateGray"></Button>
+            <Button Text="Switch" Clicked="Button_Clicked_7" TextColor="White" BackgroundColor="DarkSlateGray" ></Button>
+            <Button Text="Map" Clicked="Button_Clicked_9" TextColor="White" BackgroundColor="DarkSlateGray" ></Button>
+
+        </StackLayout>
+
+
+    </ContentPage.Content>
+
+</ContentPage>

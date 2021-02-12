@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="elemendidXaml.iphone8plus">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="iphone8plus.jpg" />
+            <Label Text="По комплекту iPhone 8 Plus полностью идентичен младшему собрату, разница только в размерах. А по размерам он, в свою очередь, полностью идентичен iPhone 7 Plus — настолько, что даже чехлы от того подойдут.Впрочем, использовать чехол с iPhone 8 Plus — идея сомнительная, потому что так вы и не почувствуете, что перешли на новый iPhone, если до этого у вас был iPhone 7 Plus. Конечно, главное новшество в плане дизайна — стеклянная задняя поверхность."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
